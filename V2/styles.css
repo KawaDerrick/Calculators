@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  /* Enable flexbox on the body */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Full viewport height */
+}
+
+#container {
+  height: 500px;
+  width: 250px;
+  display: flex;
+  /* Enable flexbox */
+  flex-direction: column;
+  /* Arrange children in a column */
+  justify-content: center;
+  /* Center children vertically */
+  align-items: center;
+  /* Center children horizontally */
+  gap: 0px;
+  /* Optional: Add some gap between children */
+  padding: 5px;
+  background-color: #f0eaea;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#screen {
+  height: 102px;
+  /* Adjusted height for the screen */
+  width: 100%;
+  background-color: lightgray;
+  /* Added background color for better visibility */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+  padding-bottom: 1px;
+}
+
+input{
+  height: 60px;
+  /* Adjusted height for input */
+  width: 100%;
+  /* Input border */
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  font-weight: 600;
+  pointer-events: none;
+  /* Adjusted font size for better visibility */
+}
+
+.input2{
+  height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+  direction: ltr;
+  pointer-events: none;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 columns for buttons */
+  gap: 10px;
+  /* Space between buttons */
+  width: 100%;
+
+}
+
+.button {
+  height: 50px;
+  /* Adjusted height for buttons */
+  background-color: #f0f0f0;
+  /* Button background color */
+  border: 1px solid #ccc;
+  /* Button border */
+  font-size: 1.2em;
+  /* Adjusted font size for better visibility */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Center button vertically and horizontally */
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+}

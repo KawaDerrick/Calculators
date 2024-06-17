@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Apple-Calculator</title>
+</head>
+
+<body>
+  <div class="center-wrapper">
+    <div class="calculator">
+      <input type="text" class="display" id="display" readonly>
+      <div class="buttons">
+        <button class="button" onclick="castToDisplay('C')">C</button>
+        <button class="button" onclick="castToDisplay('N')">N</button>
+        <button class="button" onclick="castToDisplay('%')">%</button>
+        <button class="button" onclick="castToDisplay('/')">/</button>
+
+        <button class="button" onclick="castToDisplay(7)">7</button>
+        <button class="button" onclick="castToDisplay(8)">8</button>
+        <button class="button" onclick="castToDisplay(9)">9</button>
+        <button class="button" onclick="castToDisplay('*')">X</button>
+
+        <button class="button" onclick="castToDisplay(4)">4</button>
+        <button class="button" onclick="castToDisplay(5)">5</button>
+        <button class="button" onclick="castToDisplay(6)">6</button>
+        <button class="button" onclick="castToDisplay('-')">-</button>
+
+        <button class="button" onclick="castToDisplay(1)">1</button>
+        <button class="button" onclick="castToDisplay(2)">2</button>
+        <button class="button" onclick="castToDisplay(3)">3</button>
+        <button class="button" onclick="castToDisplay('+')">+</button>
+
+        <button class="button " id="span-2" onclick="castToDisplay(0)">0</button>
+        <button class="button" onclick="castToDisplay('.')">.</button>
+        <button class="button" onclick="castToDisplay('=')">=</button>
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
