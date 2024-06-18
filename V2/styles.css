@@ -49,14 +49,18 @@ body {
 }
 
 input{
+  padding-right: 9px;
   height: 60px;
   /* Adjusted height for input */
   width: 100%;
   /* Input border */
   border: none;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.2em;
+  font-size: 40px;
+  border-bottom: 1px solid rgb(213, 213, 213);
   font-weight: 600;
+  text-align: right;
+  direction: ltr;
   pointer-events: none;
   /* Adjusted font size for better visibility */
 }
